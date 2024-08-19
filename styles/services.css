@@ -1,0 +1,25 @@
+#services {
+  display: flex;
+  padding: 88px 120px 120px 120px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 56px;
+  align-self: stretch;
+}
+
+.thirdHeader {
+  display: flex;
+  width: 355px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin-left: 60px;
+}
+.thirdHeader span {
+  font: var(--subtititle-icon);
+}
+.thirdHeader h2 {
+  font: var(--tigle-md-asap);
+}
