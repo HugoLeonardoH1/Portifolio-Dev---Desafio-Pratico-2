@@ -1,0 +1,61 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --mini-title-color: #e3646e;
+
+  --arrow-hover-color: #3996db;
+  --icon-yellow: #eabd5f;
+  --icon-green: #82bc4f;
+  --icon-title-purple: #bb72e9;
+
+  --background-card-dark-300: #292c34;
+  --background-services-dark-200: #16181d;
+
+  --background-dark: #0d0e11;
+  --background-mid: #16181d;
+  --background-light: #292c34;
+
+  --font-family1: "Asap", sans-serif;
+  --font-family2: "Inconsolata", sans-serif;
+  --font-family3: "Maven Pro", sans-serif;
+
+  --primary-text-color: #c4c4cc;
+  --secondary-text-color: #c0c4ce;
+  --terciary-text-color: #878ea1;
+  --quaternary-text-color: #e2e4e9;
+
+  --title-lg-asap: 700 56px/120% var(--font-family1);
+  --tigle-md-asap: 700 24px/120% var(--font-family1);
+  --text-sm-asap: 700 16/120% var(--font-family1);
+
+  --subtititle-icon: 400 20px/120% var(--font-family2);
+
+  --text-md-maven: 400 16px/140% var(--font-family3);
+  --text-sm-maven: 400 14px/140% var(--font-family3);
+}
+
+#intro {
+  padding: 120px 163px 57px 163px;
+  max-width: 1280px;
+  align-items: center;
+  margin-inline: auto;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+body {
+  background: url(/assets/background/Background_Intro.png) lightgray 50% / cover
+    no-repeat;
+  display: flex;
+  width: 1366px;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.colorRed {
+  color: var(--mini-title-color);
+}
