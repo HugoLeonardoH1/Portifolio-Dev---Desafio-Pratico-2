@@ -6,6 +6,8 @@
   align-items: center;
   gap: 48px;
   align-self: stretch;
+  background: url(/assets/background/Background_Intro.png) lightgray 10% / cover
+    no-repeat;
 }
 
 .header4 {
@@ -52,6 +54,14 @@
 
 .cardsInfo:hover {
   border: 1px solid var(--arrow-hover-color);
+}
+
+.icons {
+  width: 28px;
+  height: 28px;
+}
+.cardsNames p:hover {
+  color: var(--arrow-hover-color);
 }
 
 .cardsNames p {

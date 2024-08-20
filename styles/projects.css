@@ -6,6 +6,7 @@
   align-items: center;
   gap: 56px;
   align-self: stretch;
+  background: var(--background-mid);
 }
 
 .secondHeader {

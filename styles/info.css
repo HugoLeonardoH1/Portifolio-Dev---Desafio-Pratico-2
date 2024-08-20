@@ -1,7 +1,8 @@
 .info {
   display: flex;
-  width: 1040px;
+  width: 1240px;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   gap: 80px;
   margin-bottom: 94px;
@@ -19,7 +20,7 @@ header {
   position: relative;
 }
 .code {
-  left: .1px;
+  left: 0.1px;
   bottom: 1px;
   margin-left: 60px;
   position: absolute;
