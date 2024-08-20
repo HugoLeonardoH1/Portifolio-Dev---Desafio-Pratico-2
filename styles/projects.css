@@ -19,7 +19,6 @@
 }
 .secondHeader span {
   font: var(--subtititle-icon);
-  
 }
 .secondHeader h2 {
   color: var(--quaternary-text-color);
@@ -35,6 +34,7 @@
   gap: 24px;
   flex-wrap: wrap;
 }
+
 .card {
   display: grid;
   width: 330px;
@@ -47,13 +47,19 @@
   background-color: var(--background-light);
   border-radius: 12px;
 }
+
+.card:hover {
+  border: 1.5px solid var(--Base-gray-400, #878ea1);
+}
 .card img {
   width: 306px;
   height: 156px;
   flex-shrink: 0;
+  border-radius: 8px;
 }
 .card h3 {
   font: var(--text-sm-asap);
+  font-weight: 700;
   color: var(--quaternary-text-color);
   padding-bottom: 8px;
 }

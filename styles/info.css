@@ -12,7 +12,17 @@ header {
   width: 680px;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   gap: 56px;
+}
+.perfil {
+  position: relative;
+}
+.code {
+  left: .1px;
+  bottom: 1px;
+  margin-left: 60px;
+  position: absolute;
 }
 .title {
   display: flex;
